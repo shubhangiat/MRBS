@@ -3,7 +3,7 @@ services:
     www:
         build:
             context: ..
-            dockerfile: example/php/Dockerfile
+            dockerfile: docker/php/Dockerfile
         ports: 
             - "8080:80"
         volumes:
